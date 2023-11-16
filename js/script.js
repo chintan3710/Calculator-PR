@@ -42,7 +42,7 @@ let keyArr = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "+", "-", "*", "
 document.addEventListener("keydown", (v) => {
     keyArr.map((key) => {
         if (key == v.key) {
-            isOperator = display.value.charAt(display.value.length - 1);
+            // isOperator = display.value.charAt(display.value.length - 1);
             // if(opArr.includes(isOperator)){
                 if (v.key == "=" || v.key == "Enter") {
                 //     return 0;
